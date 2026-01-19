@@ -1,0 +1,27 @@
+/*Types of fxns :
+a) Built in, b) user defined
+
+a)eg:- sqrt(25); cmath
+b)eg:- void greet(){
+cout<< "hello";
+}
+
+Fxns Parameters:
+1. call by value:
+eg:- void change(int x){
+        x = 10;
+}
+
+2. call by reference:
+eg:- void change(int &x){
+        x = 10;
+}
+
+3. call by pointer:
+eg:- void change(int *x){
+    *x = 10;
+}
+
+Return types:-
+1. void (return not needed)
+2. non void (return needed)
