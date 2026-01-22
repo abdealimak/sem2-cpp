@@ -1,17 +1,20 @@
 #include <iostream>
 using namespace std;
 
-int main()
-{
-    int n;
+int fact(int n){
     int fact = 1;
-    cout<<"enter number: ";
-    cin>> n ;
 
     for (int i = 1; i <=n; i++)
     {
         fact *= i;
     }
-    cout<<fact;
+    return fact;
+}
+int main()
+{
+    int n;
+    cout<<"enter number: ";
+    cin>> n ;
+    cout<<"factorial= " << fact(n);
     return 0;
 }
